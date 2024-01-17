@@ -19,4 +19,4 @@ EXPOSE 5000
 STOPSIGNAL SIGINT
 
 ENTRYPOINT ["python"]
-CMD ["flask_app.py"]
+CMD ["webhook_app.py"]
